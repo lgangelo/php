@@ -6,8 +6,9 @@ skipStagesAfterUnstable()
 stages {
 stage('Remove container atual') {
 steps {
-sh 'docker stop webserver'
-sh 'docker container rm -f webserver'
+sh 'echo "angelo" >> vim /docker/teste.txt'
+sh 'docker stop my_php'
+sh 'docker container rm -f my_php'
 }
 }
 stage('Roda novo Container') {
