@@ -17,7 +17,7 @@ sh 'docker run -d --name my_php -p 8888:80 php:7.2-apache'
 }
 stage('Copia PHP para o container'){
 steps {
-sh 'docker cp my_php:./* /var/www/html'
+sh 'docker cp my_php:./* "/var/www/html"'
 }
 }
 }
