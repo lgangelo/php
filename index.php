@@ -1,8 +1,5 @@
 <?php
-echo "TCC_ANGELO_LUIZ_GRANDE_Apresentação";
-  echo "Trabalho Finalizado";
+echo "TCC_ANGELO_LUIZ_GRANDE_Apresentação";\n\n
+  echo "Trabalho Finalizado";\n
  ?>
-<?php
-echo "TCC_ANGELO_LUIZ_GRANDE_Apresentação";
-  echo "Trabalho Finalizado";
- ?>
+
