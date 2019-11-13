@@ -12,7 +12,7 @@ sh 'docker container rm -f my_php'
 }
 stage('Roda novo Container') {
 steps {
-sh 'mkdir my_php
+sh 'mkdir my_php'
 sh 'docker run -d --name my_php -p 8888:80 php:7.2-apache'
 }
 }
