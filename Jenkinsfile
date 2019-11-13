@@ -7,7 +7,7 @@ stages {
 stage('Remove container atual') {
 steps {
 sh 'docker stop webserver'
-sh 'docker container rm -f /root/src/my_php'
+sh 'docker container rm -f webserver'
 }
 }
 stage('Roda novo Container') {
