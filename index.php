@@ -1,5 +1,5 @@
 <?php
-echo "TCC_ANGELO_LUIZ_GRANDE_Apresentação";\n\n
-  echo "Trabalho Finalizado";\n
- ?>
+ $texto = "Olá, \n esta é uma pratica de apresentação do TCC. \n\n Att. \n Angelo Luiz Grande \n Analista de Infraestrutura.";
 
+ echo $texto;
+?>
